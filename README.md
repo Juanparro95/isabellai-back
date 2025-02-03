@@ -39,7 +39,13 @@ Este repositorio contiene el examen de ingreso para la empresa IsabellAI. El pro
 3. **Configuración del archivo `.env`**:
    Dentro del proyecto encontrarás un archivo llamado `.env.example`. Es necesario que hagas una copia de este archivo y la renombres a `.env`. Luego, configura los valores dentro de este archivo para asegurar que el proyecto funcione correctamente. En este archivo se encuentran las configuraciones esenciales, como las credenciales de la base de datos, las claves secretas de JWT y otros parámetros importantes.
 
-## Configuración del proyecto
+## Clonar el proyecto
+
+```bash
+$ git clone https://github.com/Juanparro95/isabellai-back
+```
+
+## Instalar las dependencias
 
 ```bash
 $ yarn install
@@ -54,8 +60,6 @@ $ yarn run start
 # watch mode
 $ yarn run start:dev
 
-# production mode
-$ yarn run start:prod
 ```
 
 ## Corre los testeos
@@ -63,12 +67,6 @@ $ yarn run start:prod
 ```bash
 # unit tests
 $ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
 ```
 
 - Author - [Juan David Parroquiano Vargas]
