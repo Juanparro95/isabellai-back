@@ -32,7 +32,6 @@ describe('UsersService', () => {
     const user = new User();
     Object.assign(user, userDto);
 
-    // ⚠️ Aquí nos aseguramos de que 'save' devuelve correctamente un usuario
     jest.spyOn(repository, 'create').mockReturnValue(user);
     jest.spyOn(repository, 'save').mockResolvedValue(user);
 
